@@ -1,5 +1,5 @@
 :root {
-	--primary: rgba(210, 210, 210, 0.97);
+	--primary: rgba(255, 255, 255, 0.9);
 	--secondary: #9a9ec3;
 	--accent: #46435D;
 	--text: black;
@@ -8,7 +8,7 @@ body {
 	padding: 0px;
 	margin: 0px;
 	background-image: url("https://i.ibb.co/3mTcjbH/dream-big-with-purple.jpg");
-	background-size: 200%;
+	background-size: 100%;
 	background-position: top;
 }
 
