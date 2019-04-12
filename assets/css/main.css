@@ -18,7 +18,7 @@ nav {
 	left: 0;
 	height: 80px;
 	background-color: var(--primary);
-	padding: 0px 100px;
+	padding: 0 10%;
 }
 nav img {
 	display: inline;
@@ -50,22 +50,23 @@ nav .nav-right {
 
 /* CONTENT */
 .content {
-	margin: 100px 100px 0px 100px;
+	margin: 8% 8% 0% 8%;
 	background-color: var(--primary);
-	padding: 80px;
+	padding: 5%;
 }
 .content-left {
 	box-sizing: border-box;
-	width: 70%;
+	width: 60%;
 	display: inline-block;
 }
 .content-right {
 	box-sizing: border-box;
 	display: inline-block;
-	width: 26%;
+	width: 36%;
 	float: right;
-	padding: 20px;
+	padding: 2%;
 	background-color: var(--secondary);
+	overflow: scroll;
 }
 
 /* TEXT */
@@ -103,7 +104,7 @@ a:hover {
 /* FOOTER */
 footer {
 	box-sizing: border-box;
-	height: 100px;
+	height: 5%;
 	background-color: var(--primary);
 	padding: 5px 100px;
 	margin-top: 80px;
@@ -121,4 +122,25 @@ hr {
 }
 .tab {
 	margin-left: 40px;
+}
+
+/* MEDIA */
+@media screen and (max-width: 770px) {
+	nav {
+		height: 160px;
+	}
+}
+@media screen and (max-width: 580px) {
+	nav {
+		height: 80px;
+	}
+	nav .nav-right {
+		display: none;
+	}
+}
+@media screen and (max-width: 475px) {
+	nav {
+		height: 80px;
+		padding: 0% 2%;
+	}
 }
