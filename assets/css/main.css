@@ -1,13 +1,13 @@
 :root {
 	--primary: rgba(210, 210, 210, 0.97);
-	--secondary: #fdf4c4;
-	--accent: #60443b;
+	--secondary: #9a9ec3;
+	--accent: #46435D;
 	--text: black;
 }
 body {
 	padding: 0px;
 	margin: 0px;
-	background-image: url("https://i.ibb.co/Np0dmRL/nasa-43563-unsplash.jpg");
+	background-image: url("https://i.ibb.co/3mTcjbH/dream-big-with-purple.jpg");
 	background-size: 100%;
 	background-position: top;
 }
@@ -24,11 +24,24 @@ nav img {
 	display: inline;
 	height: 60px;
 	padding: 10px 0px;
+	float: left;
+}
+nav .nav-text {
+	float: left;
+	margin-left: 20px;
+	margin-top: 14px;
 }
 nav h2 {
-	display: inline;
-	line-height: 80px;
-	vertical-align: top;
+	font-size: 28px;
+	color: var(--accent);
+	font-weight: 300;
+	margin: 0px;
+	line-height: 1.0;
+}
+nav span {
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
 }
 nav .nav-right {
 	float: right;
@@ -71,6 +84,7 @@ h4 {
 	font-weight: 100;
 	padding: 0px;
 }
+
 p {
 	font-family: Avenir;
 	font-weight: 300;
@@ -89,7 +103,7 @@ a:hover {
 /* FOOTER */
 footer {
 	box-sizing: border-box;
-	height: 60px;
+	height: 100px;
 	background-color: var(--primary);
 	padding: 5px 100px;
 	margin-top: 80px;
@@ -97,7 +111,7 @@ footer {
 footer p {
 	padding: 0px;
 	margin: 0px;
-	line-height: 50px;
+	line-height: 45px;
 	vertical-align: top;
 }
 
