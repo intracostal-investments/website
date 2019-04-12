@@ -1,0 +1,22 @@
+{
+  "name": "intracostalinvestments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intracostal-investments/website.git"
+  },
+  "author": "",
+  "license": "Commercial",
+  "bugs": {
+    "url": "https://github.com/intracostal-investments/website/issues"
+  },
+  "homepage": "https://github.com/intracostal-investments/website#readme",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
