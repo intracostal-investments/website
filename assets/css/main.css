@@ -1,0 +1,110 @@
+:root {
+	--primary: rgba(210, 210, 210, 0.97);
+	--secondary: #fdf4c4;
+	--accent: #60443b;
+	--text: black;
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	background-image: url("https://i.ibb.co/Np0dmRL/nasa-43563-unsplash.jpg");
+	background-size: 100%;
+	background-position: top;
+}
+
+/* NAV */
+nav {
+	top: 0;
+	left: 0;
+	height: 80px;
+	background-color: var(--primary);
+	padding: 0px 100px;
+}
+nav img {
+	display: inline;
+	height: 60px;
+	padding: 10px 0px;
+}
+nav h2 {
+	display: inline;
+	line-height: 80px;
+	vertical-align: top;
+}
+nav .nav-right {
+	float: right;
+	text-align: right;
+}
+
+/* CONTENT */
+.content {
+	margin: 100px 100px 0px 100px;
+	background-color: var(--primary);
+	padding: 80px;
+}
+.content-left {
+	box-sizing: border-box;
+	width: 70%;
+	display: inline-block;
+}
+.content-right {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 26%;
+	float: right;
+	padding: 20px;
+	background-color: var(--secondary);
+}
+
+/* TEXT */
+h1 {
+	font-family: Marion;
+}
+h2 {
+	font-family: Marion;
+}
+h3 {
+	font-family: Marion;
+}
+h4 {
+	font-family: Avenir;
+	line-height: .5;
+	font-weight: 100;
+	padding: 0px;
+}
+p {
+	font-family: Avenir;
+	font-weight: 300;
+	line-height: 2.0;
+}
+a {
+	color: var(--accent);
+	text-decoration: none;
+	transition: .2s all;
+	opacity: .8;
+}
+a:hover {
+	opacity: 1;
+}
+
+/* FOOTER */
+footer {
+	box-sizing: border-box;
+	height: 60px;
+	background-color: var(--primary);
+	padding: 5px 100px;
+	margin-top: 80px;
+}
+footer p {
+	padding: 0px;
+	margin: 0px;
+	line-height: 50px;
+	vertical-align: top;
+}
+
+/* MISC. CLASSES */
+hr {
+	border: 1px solid var(--text);
+}
+.tab {
+	margin-left: 40px;
+}
