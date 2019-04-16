@@ -19,8 +19,10 @@ I need a second page to my website that showcases that Intracostal Investments s
 Dream Big. Not “close to the heart)
 
 start: 8:34
+pause: 9:53-
 end: 
 
+-~30 mins
 
 <h3>Contact</h3>
 			<hr />
