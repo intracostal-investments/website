@@ -1,13 +1,15 @@
 :root {
-	--primary: rgba(255, 255, 255, 0.9);
+	--primary: rgba(0, 0, 0, 0.9);
 	--secondary: #9a9ec3;
-	--accent: #46435D;
-	--text: black;
+	--accent: #b5b5f0;
+	--active: #d6d6e6;
+	--text: white;
 }
 body {
 	padding: 0px;
 	margin: 0px;
-	background-image: url("https://i.ibb.co/3mTcjbH/dream-big-with-purple.jpg");
+	background-color: var(--secondary);
+	/* background-image: url("https://i.ibb.co/3mTcjbH/dream-big-with-purple.jpg"); */
 	background-size: 100%;
 	background-position: top;
 }
@@ -43,9 +45,20 @@ nav span {
 	font-style: italic;
 	text-align: center;
 }
-nav .nav-right {
+nav .active {
+	color: var(--active);
+}
+footer .footer-right {
 	float: right;
 	text-align: right;
+}
+.nav-link {
+	font-size: 14px;
+	color: var(--accent);
+	font-weight: 300;
+	margin-left: 60px;
+	line-height: 80px;
+	font-family: Avenir;
 }
 
 /* CONTENT */
@@ -56,13 +69,13 @@ nav .nav-right {
 }
 .content-left {
 	box-sizing: border-box;
-	width: 60%;
+	width: 52%;
 	display: inline-block;
 }
 .content-right {
 	box-sizing: border-box;
 	display: inline-block;
-	width: 36%;
+	width: 44%;
 	float: right;
 	padding: 2%;
 	background-color: var(--secondary);
@@ -72,6 +85,8 @@ nav .nav-right {
 /* TEXT */
 h1 {
 	font-family: Marion;
+	color: var(--text);
+
 }
 h2 {
 	font-family: Marion;
@@ -90,6 +105,7 @@ p {
 	font-family: Avenir;
 	font-weight: 300;
 	line-height: 2.0;
+	color: var(--text);
 }
 a {
 	color: var(--accent);
@@ -99,6 +115,12 @@ a {
 }
 a:hover {
 	opacity: 1;
+}
+.image-link {
+	opacity: 1;
+}
+.image-link:hover {
+	opacity: .85;
 }
 
 /* FOOTER */
@@ -122,6 +144,31 @@ hr {
 }
 .tab {
 	margin-left: 40px;
+}
+
+/* SPONSOR TABLE */
+table {
+	border-spacing: 0px 40px;
+}
+table tr td img {
+	width: 160px;
+}
+table h2 {
+	margin: 0px 20px;
+}
+.button {
+	display: block;
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+
+	background-color: var(--accent);
+
+	text-align: center;
+	font-family: Avenir;
+	color: var(--primary);
+	font-weight: 100;
+	font-size: 15px;
 }
 
 /* MEDIA */
