@@ -56,7 +56,7 @@ footer .footer-right {
 	font-size: 14px;
 	color: var(--accent);
 	font-weight: 300;
-	margin-left: 60px;
+	margin-left: 5%;
 	line-height: 80px;
 	font-family: Avenir;
 }
@@ -175,19 +175,6 @@ table h2 {
 @media screen and (max-width: 770px) {
 	nav {
 		height: 160px;
-	}
-}
-@media screen and (max-width: 580px) {
-	nav {
-		height: 80px;
-	}
-	nav .nav-right {
-		display: none;
-	}
-}
-@media screen and (max-width: 475px) {
-	nav {
-		height: 80px;
 		padding: 0% 2%;
 	}
 }
