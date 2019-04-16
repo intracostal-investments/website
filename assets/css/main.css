@@ -128,7 +128,7 @@ footer {
 	box-sizing: border-box;
 	height: 5%;
 	background-color: var(--primary);
-	padding: 5px 100px;
+	padding: 1% 4%;
 	margin-top: 80px;
 }
 footer p {
@@ -172,9 +172,29 @@ table h2 {
 }
 
 /* MEDIA */
+@media screen and (max-width: 1054px) {
+	footer {
+		height: 100px;
+	}
+}
 @media screen and (max-width: 770px) {
 	nav {
 		height: 160px;
 		padding: 0% 2%;
+	}
+}
+@media screen and (max-width: 541px) {
+	footer {
+		height: 140px;
+	}
+}
+@media screen and (max-width: 391px) {
+	footer {
+		height: 180px;
+	}
+}
+@media screen and (max-width: 341px) {
+	footer {
+		height: 220px;
 	}
 }
